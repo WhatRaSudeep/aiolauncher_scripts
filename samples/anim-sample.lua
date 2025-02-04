@@ -37,10 +37,7 @@ function on_click(idx)
     elseif idx == 6 then
         local tab = {}
         local text = [[
-            Yesterday
-            All my troubles seemed so far away
-            Now it looks as though they're here to stay
-            Oh, I believe in yesterday
+            Sup babbyy
         ]]
         for i=1,text:len() do
             table.insert(tab, fmt.blue(text:sub(1, i))..text:sub(i+1))
